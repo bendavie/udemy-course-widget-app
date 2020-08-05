@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Accordion from './components/Accordion';
+import Search from './components/Search';
+import Dropdown from './components/Dropdown';
+import Translate from './components/Translate';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const items = [
+    {
+        title: 'What is React?',
+        content: 'React is a front end JS framework'
+    },
+    {
+        title: 'Why use React?',
+        content: 'React is popular for many engineers'
+    },
+    {
+        title: 'How do you use React?',
+        content: 'By creating components'
+    }
+]
 
-export default App;
+const options = [
+    {
+        name: 'The Color Red',
+        value: 'red'
+    },
+    {
+        name: 'The Color Green',
+        value: 'green'
+    },
+    {
+        name: 'A shade of Blue',
+        value: 'blue'
+    }
+];
+
+export default () => {
+
+
+
+    return (
+        <div>
+            <Translate />
+        </div>
+    );
+};
