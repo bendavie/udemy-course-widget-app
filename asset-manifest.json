@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/udemy-course-widget-app/static/js/main.8184392b.chunk.js",
+    "main.js.map": "/udemy-course-widget-app/static/js/main.8184392b.chunk.js.map",
+    "runtime-main.js": "/udemy-course-widget-app/static/js/runtime-main.261aff82.js",
+    "runtime-main.js.map": "/udemy-course-widget-app/static/js/runtime-main.261aff82.js.map",
+    "static/js/2.4088855b.chunk.js": "/udemy-course-widget-app/static/js/2.4088855b.chunk.js",
+    "static/js/2.4088855b.chunk.js.map": "/udemy-course-widget-app/static/js/2.4088855b.chunk.js.map",
+    "index.html": "/udemy-course-widget-app/index.html",
+    "precache-manifest.dde46e06bd370410608a81e9031d9e7e.js": "/udemy-course-widget-app/precache-manifest.dde46e06bd370410608a81e9031d9e7e.js",
+    "service-worker.js": "/udemy-course-widget-app/service-worker.js",
+    "static/js/2.4088855b.chunk.js.LICENSE.txt": "/udemy-course-widget-app/static/js/2.4088855b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.261aff82.js",
+    "static/js/2.4088855b.chunk.js",
+    "static/js/main.8184392b.chunk.js"
+  ]
+}
